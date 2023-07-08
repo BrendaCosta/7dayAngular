@@ -1,0 +1,12 @@
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.mat-toolbar-multiple-rows{
+  flex-direction: row;
+}
+h1{
+  text-align: center;
+  margin: 1rem 0;
+}
+
