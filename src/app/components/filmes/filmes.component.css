@@ -2,3 +2,13 @@
   padding: 1rem;
 
 }
+ul li{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+ul li .title{
+  font-weight: 500;
+  font-size: 18px;
+  color: green;
+}

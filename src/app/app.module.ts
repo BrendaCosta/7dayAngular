@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,6 +26,7 @@ import { NaveComponent } from './components/nave/nave.component';
     MatToolbarModule,
     MatIconModule,
     RouterModule,
+    HttpClientModule,
 
 
 

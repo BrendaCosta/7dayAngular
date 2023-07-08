@@ -1,15 +1,13 @@
 <div class="container">
   <h2>Filmes Star Wars</h2>
+
+
 <ul>
-  <li>Star Wars: Episode IV - A New Hope</li>
-  <li>Star Wars: Episode V - The Empire Strikes Back</li>
-  <li>Star Wars: Episode VI - Return of the Jedi</li>
-  <li>Star Wars: Episode I - The Phantom Menace</li>
-  <li>Star Wars: Episode II - Attack of the Clones</li>
-  <li>Star Wars: Episode III - Revenge of the Sith</li>
-  <li>Star Wars: Episode VII - The Force Awakens</li>
-  <li>Star Wars: Episode VIII - The Last Jedi</li>
-  <li>Star Wars: Episode IX - The Rise of Skywalker</li>
+  <li *ngFor="let filme of filmes">
+    <p class="title">Star Wars: {{filme.episode_id}} - {{filme.title}}</p>
+    <p>Data de lançamento: {{filme.release_date}}</p>
+  </li>
+
 </ul>
 
 </div>
